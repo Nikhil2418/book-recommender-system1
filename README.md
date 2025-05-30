@@ -16,3 +16,19 @@ This is a web-based Book Recommendation System built using **Flask** and deploye
 
 ## 📦 Project Structure
 
+book-recommender-system/
+│
+├── app.py # Main Flask application
+├── requirements.txt # All Python dependencies
+├── Procfile # For Render deployment
+├── books.pkl # Book details
+├── popular.pkl # Popular books
+├── pt.pkl # Pivot table
+├── similarity_score.pkl # Pre-computed similarity matrix
+│
+├── templates/ # HTML pages
+│ ├── index.html
+│ ├── recommend.html
+│ └── contact.html
+│
+└── model/ # (optional placeholder for future model training scripts)
